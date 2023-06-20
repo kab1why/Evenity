@@ -1,0 +1,135 @@
+.container .recap-event-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 130px;
+  position: relative;
+  /* margin-bottom: 600px; */
+}
+
+.container .recap-event-part .title {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  color: #000000;
+  margin-bottom: 57px;
+  text-align: center;
+}
+
+.container .recap-event-part .background img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.container .recap-event-part .text-part {
+  z-index: 2;
+  margin-left: 8%;
+}
+
+.container .recap-event-part .text-part .title-part {
+  margin-top: 6%;
+}
+
+.container .recap-event-part .text-part .title-part .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  color: white;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.container .recap-event-part .text-part .title-part .location {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+  margin-bottom: 250px;
+}
+
+.container .recap-event-part .text-part .btn-part {
+  display: flex;
+  align-items: center;
+}
+
+.container .recap-event-part .text-part .btn-part .btn button {
+  color: white;
+  background-color: #000000;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 20px 25px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 33px;
+}
+
+.container .recap-event-part .text-part .btn-part .btn {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: white;
+  margin-right: 500px;
+}
+
+.container .recap-event-part .text-part .date {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: white;
+}
+
+.container .recap-event-part .timer {
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container .recap-event-part .timer .days {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .recap-event-part .timer .days,
+.container .recap-event-part .timer .hours,
+.container .recap-event-part .timer .minutes,
+.container .recap-event-part .timer .seconds {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #6b7280;
+  -webkit-box-shadow: 13px 9px 47px -8px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 13px 9px 47px -8px rgba(0, 0, 0, 0.66);
+  box-shadow: 13px 9px 47px -8px rgba(0, 0, 0, 0.66);
+  padding: 36px 70px;
+  border-radius: 12px;
+}
+
+.container .recap-event-part .timer .days .number,
+.container .recap-event-part .timer .hours .number,
+.container .recap-event-part .timer .minutes .number,
+.container .recap-event-part .timer .seconds .number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+  color: #000000;
+}

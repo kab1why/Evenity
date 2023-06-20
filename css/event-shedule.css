@@ -1,0 +1,72 @@
+.container .event-shedule-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
+
+.container .event-shedule-part .title {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  color: #000000;
+  margin-bottom: 127px;
+}
+
+.container .event-shedule-part .cards-part {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.container .event-shedule-part .cards-part .freelance-card {
+  margin-right: 52px;
+  margin-bottom: 86px;
+}
+
+.container .event-shedule-part .cards-part .date {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container .event-shedule-part .cards-part .date .day {
+  margin-left: -12%;
+}
+
+.container .event-shedule-part .cards-part .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.container .event-shedule-part .cards-part .desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 5px;
+}
+
+.container .event-shedule-part button {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  border: none;
+  padding: 20px 55px;
+  background-color: #070148;
+  border-radius: 12px;
+  cursor: pointer;
+}
