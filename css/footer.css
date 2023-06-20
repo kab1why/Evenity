@@ -1,0 +1,169 @@
+.container footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  border-radius: 12px;
+  margin-top: 150px;
+}
+
+.container footer a {
+  text-decoration: none;
+}
+
+.container footer .first,
+.container footer .second {
+  margin-left: 4%;
+  margin-top: 8%;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container footer .first .logo-part .logo {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: white;
+}
+
+.container footer .first .logo-part .desc {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+  margin-bottom: 42px;
+}
+
+.container footer .first .logo-part .app-download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container footer .fitst .logo-part .app-download .app-store {
+  margin-bottom: 15px;
+}
+
+.container footer .first .evenity-part .title {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+}
+
+.container footer .first .evenity-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -7%;
+}
+
+.container footer .first .evenity-part a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d1d5db;
+  margin-top: 12px;
+}
+
+.container footer .first .feature-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5%;
+}
+
+.container footer .first .feature-part .title {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.container footer .first .feature-part a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d1d5db;
+  margin-top: 12px;
+}
+
+.container footer .first .company-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3%;
+}
+
+.container footer .first .company-part .title {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.container footer .first .company-part a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d1d5db;
+  margin-top: 12px;
+}
+
+.container footer .second .collaborators-part {
+  /* margin-left: -9%; */
+}
+
+.container footer .second .collaborators-part img {
+  margin-right: 15px;
+}
+
+.container footer .second .company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container footer .second .company .terms,
+.container footer .second .company .privacy,
+.container footer .second .company .return {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d1d5db;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.container footer .second .text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d1d5db;
+}
